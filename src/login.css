@@ -1,0 +1,30 @@
+.homepage-logo img {
+  border-radius: 20px;
+}
+
+input:first-child {
+  height: 20px;
+  margin-bottom: 20px !important;
+}
+
+hr {
+  margin-bottom: 15px;
+  width: 205px;
+}
+
+footer {
+  text-align: center;
+  height: 30px;
+}
+.site-wrapper-inner {
+  display: flex;
+  flex-direction: row;
+}
+.homepage-logo {
+  position: relative;
+}
+.loginbox {
+  position: relative;
+  margin-top: 20vh;
+  box-shadow: 20px grey;
+}

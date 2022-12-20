@@ -1,0 +1,28 @@
+.menu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 80px;
+  position: fixed;
+  background-color: #fff7ab;
+  border-radius: 0 0 5px 0;
+  border-bottom: solid rgba(200, 200, 192, 0.78);
+  border-right: solid rgba(200, 200, 192, 0.78);
+}
+
+.menu hr {
+  position: relative;
+  top: 10px;
+  width: 100%;
+}
+
+.menu span {
+  position: relative;
+  font-weight: 400;
+  top: 10px;
+}
+
+.menu span:hover {
+  cursor: pointer;
+}

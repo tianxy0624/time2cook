@@ -1,0 +1,35 @@
+.add_icon {
+  position: absolute;
+  left: 115px;
+  width: 30px;
+  height: 30px;
+}
+.add_icon:hover {
+  cursor: pointer;
+}
+
+.ingredient {
+  position: relative;
+  width: 40px;
+  left: 3px;
+}
+
+.option {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  align-items: center;
+  border: solid rgb(207, 208, 201);
+}
+
+.option:hover {
+  border: solid rgb(100, 200, 239);
+}
+
+.option span {
+  position: relative;
+  left: 10px;
+}

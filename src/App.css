@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  /* display: table-row; */
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.homepage-logo {
+  display: table-cell;
+  width: max-content;
+  padding-left: 180px;
+  padding-top: 100px;
+  vertical-align: middle;
+}
+.homepage-logo img {
+  width: 400px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  background: #fff7ab;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.loginbox {
+  display: table-cell;
+  padding-left: 250px;
+  width: 500px;
+  height: 200px;
+  vertical-align: middle;
+}
+.loginbox .loginform {
+  justify-items: center;
+  text-align: left;
+  background: #fff7ab;
+  width: 200px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 3px grey;
+}
+
+.loginform input {
+  width: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

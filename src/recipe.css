@@ -1,0 +1,30 @@
+.recipe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  border: solid;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.recipe:hover {
+  cursor: pointer;
+}
+
+.recipe hr {
+  position: relative;
+  top: -10px;
+  width: 100%;
+}
+
+.recipe img {
+  width: 200px;
+}
+
+.recipe span {
+  position: relative;
+  bottom: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}

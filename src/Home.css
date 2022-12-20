@@ -1,0 +1,105 @@
+.navibar {
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  /* text-align: center; */
+  background: #fff7ab;
+  z-index: 999;
+}
+
+.menu_icon {
+  position: fixed;
+  width: 40px;
+  top: 3px;
+  left: 10px;
+}
+
+.menu_icon:hover {
+  cursor: pointer;
+}
+
+.userInfo {
+  position: fixed;
+  display: flex;
+  top: 6px;
+  right: 10px;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.avatar_icon {
+  width: 36px;
+}
+
+.userName {
+  margin-right: 5px;
+  font-size: smaller;
+  font-weight: 500;
+}
+.body {
+  margin-top: 50px;
+}
+.search {
+  position: relative;
+  top: 20vh;
+  left: 30vw;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.search input {
+  font-size: medium;
+  font-weight: 400;
+  text-indent: 20px;
+  border-radius: 15px;
+  width: 500px;
+  height: 40px;
+}
+.search_icon {
+  position: relative;
+  bottom: 10px;
+  right: 35px;
+  width: 26px;
+  height: 25px;
+}
+
+.search_icon:hover {
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  position: relative;
+  top: 30vh;
+  left: 31vw;
+}
+
+.column1 {
+  position: relative;
+  left: 5px;
+}
+
+.column2 {
+  position: relative;
+  left: 15px;
+}
+
+.column3 {
+  position: relative;
+  left: 25px;
+}
+
+.recommendation {
+  position: absolute;
+  left: 42vw;
+  bottom: 75vh;
+}
+
+.recommendation a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: cornflowerblue;
+  cursor: pointer;
+}
